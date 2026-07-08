@@ -10,4 +10,22 @@ Navigation & file Management
 * ex : ls -la
 * //  if a file or folder name starts with adot , it becomes hidden.
 
+* cd : change directory. 
+*  // change directory to the user,s home dirrectory.
+*  ex : cd
+*  cd ~
+*  
+* cd .. : change directory to parent .
+* // move up one lavel to the parent directory.
+* ex : cd ..
+* 
+* cd - : change directory to previous.
+*  // go to back to the previous working directory.
+*  ex : cd -
+
+* cd / : change directory to root.
+*  // go to the fot directory of the system.
+*  ex : cd /
+
+*  
 * 
