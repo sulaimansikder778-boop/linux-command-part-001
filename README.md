@@ -22,6 +22,7 @@ Navigation & file Management
 * cd - : change directory to previous.
 *  // go to back to the previous working directory.
 *  ex : cd -
+*  
 
 * cd / : change directory to root.
 *  // go to the fot directory of the system.
