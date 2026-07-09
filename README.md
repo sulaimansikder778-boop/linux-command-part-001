@@ -79,4 +79,45 @@ Navigation & file Management
 * rm -i : prompt for confirmation before deleting a files.
 * full form : remove interactive.
 * ex : rm -i file.txt
+* 
+* cat : display file contents.
+* full-form : concatanate.
+* ex : cat file_name.txt
+* 
+* cat > : create a new file and write content into it.
+* full form : concatenate redirection (overwrite).
+* ex : cat > newfile.txt
+* 
+* cat >> : append new text or data to the end of an existing file .
+* full form : concatenate redirection (append)
+* ex : cat >>  existingfile.txt
+* 
+* cat file1.txt file2.txt : merge and display multiple files together on the screen.
+* full form : concatenate multiple files'
+* ex : cat file1.txt file2.txt
+* 
+* cat file1.txt > file2.txt : copy the entire content of file1 into file2 (overwrites file2)
+* full form : concatenate redirection copy.
+* ex : cat file1.txt > file2.txt
+* 
+* cat file1 >> file2.txt : append the entire content of file1 to the end file2.
+* full form : concatenate redirection append.
+* ex : cat file1.txt >> file2.txt
+* 
+* cat -n : show file content with line numbers for all lines.
+* fll form : concatenate number
+* ex : cat -n file.txt
+* 
+* cat -b : show line numbers only for lines that have text (skips empty lines)
+* full form : concatenate blank
+* ex : cat -b file.txt
+* 
+* cat -s : shrink multiple empty lines into just one single empty line.
+* full form : concatenate squeeze blank
+* ex : cat -s file.txt
+* 
+* cat -E : show a dollar sign at the endof every line.
+* full form : concatenate end of line.
+* ex : cat -e file.txt
+
 
