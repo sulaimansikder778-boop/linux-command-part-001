@@ -40,5 +40,17 @@ Navigation & file Management
 *  full form : copy interactive.
 *  ex : cp -i file.txt folder/
 
+*  mv : move or rename files and directories.
+*  full form : move .
+*  ex : mv file.txt /folder1
+
+*  mv (rename) : rename a file or folderby keeping it in the  same location.
+*  full form : move (rename).
+*  ex : mv old_name.txt new_name.txt
+
+*  mv -i : prompt for confiramation before overiting an existing file.
+*  full form : move interactive.
+*  ex : mv -i file.txt folder/
+
 *  
 * 
