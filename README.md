@@ -118,6 +118,57 @@ Navigation & file Management
 * 
 * cat -E : show a dollar sign at the endof every line.
 * full form : concatenate end of line.
-* ex : cat -F file.txt
+* ex : cat -E file.txt
+* 
+* nano : open or create a text file inside the terminal // edit text file 
+* ex : nano file.txt
+* 
+* touch : create empty file
+* full form : touch
+* ex : touch file.txt
+* 
+* touch file1.txt file2.txt : create multiple empty files at the same time
+* full form : touch multiple files
+* ex : touch file1.txt file2.txt
+* 
+* touch file{1...10}.txt : create a sequence of numbered or lettered files instantly.
+* full form : touch sequence.
+* ex : touch file{1...10}.txt
+* 
+* touch -a : change or update only the access time (atime) of a file to the current time
+* full form : touch access time
+* ex : touch -a file.txt
+* 
+* touch -m : change or update only the modification time (mtime) of a file to the current time
+* form form : touch modification time
+* ex : touch -m file.txt
+* 
+* touch -c : check if a file exists ; if it doesn,t do not a new file.
+* full form : touch no-create.
+* ex : touch -c file.txt
+* 
+* touch -t : change the file,s timestamp to a specific customand instead of the current time
+* full form : touch time
+* ex : touch -t      file.txt  [ format : yyyymmddhhmm]
+* 
+* mkdir  : create a new empty directory (folder).
+* full form : make directory.
+* ex : mkdir new_folder
+* 
+* mkdir folder1 folder2 : create multiple directories at the same time.
+* full form : make multiple directories.
+* ex : mkdir folder1 folder2
+* 
+* mkdir -p : create nasted directories ( parent and child folder) al at once without any error.
+* full form : make directory parent.
+* ex : mkdir -p projects/python/codes
+* 
+* mkdir -m : create a new directory and set specific file permissions (like read,write,execute) right away.
+* full form : make directory mode.
+* ex : mkdir -m 777 public_folder
+* 
+* mkdir -v : display a confirmation mesage in the terminal for every directory created.
+* full form : make directory verbose.
+* ex : mkdir -v new_folder
 
 
