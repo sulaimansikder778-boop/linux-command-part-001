@@ -118,6 +118,6 @@ Navigation & file Management
 * 
 * cat -E : show a dollar sign at the endof every line.
 * full form : concatenate end of line.
-* ex : cat -e file.txt
+* ex : cat -F file.txt
 
 
