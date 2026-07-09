@@ -27,26 +27,32 @@ Navigation & file Management
 * cd / : change directory to root.
 *  // go to the fot directory of the system.
 *  ex : cd /
+*  
 
 *  cp : copy files from one location to another.
 *  full form : copy paste.
 *  ex : cp file.txt /folder1
+*  
 
 *  cp -r :  copy an entire directory (folder) along with all its contents.
 *  full form : copy recursive .
 *  ex : cp -i folder1/ folder2/
+*  
 
 *  cp -i : prompt before overwriting an existing file during copy.
 *  full form : copy interactive.
 *  ex : cp -i file.txt folder/
+*  
 
 *  mv : move or rename files and directories.
 *  full form : move .
 *  ex : mv file.txt /folder1
+*  
 
 *  mv (rename) : rename a file or folderby keeping it in the  same location.
 *  full form : move (rename).
 *  ex : mv old_name.txt new_name.txt
+*  
 
 *  mv -i : prompt for confiramation before overiting an existing file.
 *  full form : move interactive.
