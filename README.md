@@ -68,6 +68,15 @@ Navigation & file Management
 *  full form : move to specific path.
 *  ex : mv file.txt ~/Desktop/
 *  
-
-*  
+* rm :  remove or delete files permanently.
+* full form :  remove
+* ex : rm file.txt
 * 
+* rm -r : remove a directory (folder) and all of its contents.
+* full form : remove recursive
+* ex : rm -r folder_name/
+* 
+* rm -i : prompt for confirmation before deleting a files.
+* full form : remove interactive.
+* ex : rm -i file.txt
+
