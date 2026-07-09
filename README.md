@@ -57,14 +57,17 @@ Navigation & file Management
 *  mv -i : prompt for confiramation before overiting an existing file.
 *  full form : move interactive.
 *  ex : mv -i file.txt folder/
+*  
 
 *  mv file.txt .. : move the "file,txt" file out of the current folder into the parent directory (desktop).
 *  full form : move to parent directory.
 *  ex : mv file.txt ..
+*  
 
 *  mv file.txt ~/Desktop/ : move the the file directory to the desktop by specifying the full path.
 *  full form : move to specific path.
 *  ex : mv file.txt ~/Desktop/
+*  
 
 *  
 * 
